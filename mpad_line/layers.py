@@ -6,7 +6,7 @@ from torch.nn.parameter import Parameter
 from torch.nn.modules.module import Module
 import torch.nn.functional as F
 
-from mpad.mlp import MLP
+from mpad_line.mlp import MLP
 
 class MessagePassing(Module):
     """

@@ -3,8 +3,8 @@
 
 from base import *
 import os
-from mpad.utils import load_file, load_embeddings, get_vocab, create_gows, generate_batches, normalize, parse_doc
-from mpad.models import MPAD
+from mpad_line.utils import load_file, load_embeddings, get_vocab, create_gows, generate_batches, normalize, parse_doc
+from mpad_line.models import MPAD
 
 def predict(doc):
     docs, class_labels = load_file()

@@ -1,7 +1,6 @@
 from local_base import *
 from itertools import product
 import os
-import shutil
 import re
 import time
 import datetime
@@ -71,17 +70,14 @@ BATCH_SIZE=10
 EPOCH_SIZE=20000
 LR=0.001
 HIDDEN_NUM=64
-HIDDEN_CARDINALITY=20
 PENULTIMATE = 64
 MESSAGE_PASSING_LAYERS = 2
-WINDOW_SIZE = 2
+WINDOW_SIZE = 4
 DIRECTED = True
 USE_MASTER_NODE = True
 NORMALIZE = True
 DROPOUT = 0.5
 PATIENCE = 20
-DIMENSION=300
-CVFOLD_NUM=5
 
 
 KKMA = Kkma()

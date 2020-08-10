@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from mpad.layers import MessagePassing, Attention
+from mpad_line.layers import MessagePassing, Attention
 
 class MPAD(nn.Module):
     def __init__(self, n_feat, n_message_passing, n_hid, n_penultimate, n_class, dropout, embeddings, use_master_node):

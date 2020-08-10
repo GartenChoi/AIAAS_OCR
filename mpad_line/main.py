@@ -3,8 +3,8 @@ sys.path.append(os.path.abspath('../'))
 
 from base import *
 
-from mpad.utils import load_file, get_vocab, load_embeddings, create_gows, accuracy, generate_batches, AverageMeter
-from mpad.models import MPAD
+from mpad_line.utils import load_file, get_vocab, load_embeddings, create_gows, accuracy, generate_batches, AverageMeter
+from mpad_line.models import MPAD
 
 # Read data
 docs, class_labels = load_file()
